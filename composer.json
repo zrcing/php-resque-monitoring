@@ -1,0 +1,26 @@
+{
+    "name": "zrcing/php-resque-monitoring",
+    "description": ".",
+    "keywords": ["php-resque", "php queue", "monitoring"],
+    "license": "MIT",
+    "homepage": "https://github.com/zrcing/php-resque-monitoring",
+    "support": {
+        "issues": "https://github.com/zrcing/php-resque-monitoring/issues",
+        "source": "https://github.com/zrcing/php-resque-monitoring"
+    },
+    "authors": [
+        {
+            "name": "Gary Liao",
+            "email": "liaogling@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+		"colinmollenhour/credis": "~1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Deer\\": "src/Deer"
+        }
+    }
+}
